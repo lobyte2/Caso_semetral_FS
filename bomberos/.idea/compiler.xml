@@ -11,6 +11,7 @@
         <module name="alertas" />
         <module name="monitoreo" />
         <module name="usuarios" />
+        <module name="historial" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="alertas" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
+      <module name="historial" options="-parameters" />
       <module name="monitoreo" options="-parameters" />
       <module name="reportes" options="-parameters" />
       <module name="usuarios" options="-parameters" />
