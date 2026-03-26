@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d2c8926-29ec-4531-96e6-eb10602519a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monitoreo/src/main/java/com/bomberos/monitoreo/MonitoreoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoreo/src/main/java/com/bomberos/monitoreo/MonitoreoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoreo/src/main/java/com/bomberos/monitoreo/ZonaMonitoreo.java" afterDir="false" />
+    <list default="true" id="e4bf68f7-9f18-4a16-82a1-1eb045257759" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/Alerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/AlertaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/AlertaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reportes/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
   "customColor": "",
   "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="3BT3MopgwPHdr1N8LFhKCOt8SZF" />
+  <component name="ProjectId" id="3BTClC5qFVtY5D2szAjflbuCmfm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,14 +53,13 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AlertasApplication.executor": "Run",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.MonitoreoApplication.executor": "Run",
-    "Spring Boot.ReportesApplication.executor": "Run",
-    "Spring Boot.UsuariosApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "bk1",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -70,36 +67,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="KtorApplicationConfigurationType" />
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="ApiGatewayApplication" value="STOPPED" />
-              <entry key="MonitoreoApplication" value="STOPPED" />
-              <entry key="ReportesApplication" value="STOPPED" />
-              <entry key="UsuariosApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.MonitoreoApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="AlertasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="alertas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.alertas.AlertasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.api_gateway.ApiGatewayApplication" />
@@ -107,45 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitoreoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="monitoreo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.monitoreo.MonitoreoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="reportes" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.reportes.ReportesApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bomberos.reportes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="usuarios" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.usuarios.UsuariosApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bomberos.usuarios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ReportesApplication" />
-        <item itemvalue="Spring Boot.UsuariosApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -157,12 +97,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d2c8926-29ec-4531-96e6-eb10602519a6" name="Changes" comment="" />
-      <created>1774499188134</created>
+      <changelist id="e4bf68f7-9f18-4a16-82a1-1eb045257759" name="Changes" comment="" />
+      <created>1774503822260</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1774499188134</updated>
-      <workItem from="1774499189700" duration="1530000" />
+      <updated>1774503822260</updated>
+      <workItem from="1774503823877" duration="1847000" />
     </task>
     <servers />
   </component>

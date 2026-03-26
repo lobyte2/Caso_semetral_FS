@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="reportes" />
+        <module name="alertas" />
         <module name="monitoreo" />
         <module name="usuarios" />
       </profile>
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alertas" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
       <module name="monitoreo" options="-parameters" />
       <module name="reportes" options="-parameters" />

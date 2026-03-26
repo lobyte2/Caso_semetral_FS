@@ -4,6 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/alertas/pom.xml" />
         <option value="$PROJECT_DIR$/reportes/pom.xml" />
         <option value="$PROJECT_DIR$/usuarios/pom.xml" />
         <option value="$PROJECT_DIR$/monitoreo/pom.xml" />
