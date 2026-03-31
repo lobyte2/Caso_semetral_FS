@@ -1,0 +1,50 @@
+services:
+  # --- INFRAESTRUCTURA ---
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "9090:9090"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - bomberos-net
+
+  # --- MICROSERVICIOS ---
+  usuarios:
+    build: ./usuarios
+    ports:
+      - "8081:8081"
+    networks:
+      - bomberos-net
+
+  reportes:
+    build: ./reportes
+    ports:
+      - "8080:8080"
+    networks:
+      - bomberos-net
+
+  monitoreo:
+    build: ./monitoreo
+    ports:
+      - "8082:8082"
+    networks:
+      - bomberos-net
+
+  alertas:
+    build: ./alertas
+    ports:
+      - "8083:8083"
+    networks:
+      - bomberos-net
+
+  historial:
+    build: ./historial
+    ports:
+      - "8084:8084"
+    networks:
+      - bomberos-net
+
+networks:
+  bomberos-net:
+    driver: bridge
