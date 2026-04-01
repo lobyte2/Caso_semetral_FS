@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/bomberos/historial/pom.xml" />
         <option value="$PROJECT_DIR$/bomberos/monitoreo/pom.xml" />
         <option value="$PROJECT_DIR$/bomberos/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/bomberos/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
