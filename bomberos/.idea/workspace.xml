@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monitoreo/src/test/java/com/bomberos/monitoreo/MonitoreoControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alertas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/historial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoreo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/monitoreo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reportes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/monitoreo/src/main/java/com/bomberos/monitoreo/ZonaMonitoreo.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -48,11 +55,17 @@
     "JUnit.AlertaControllerTest.executor": "Run",
     "JUnit.ReporteControllerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AlertasApplication.executor": "Run",
+    "Spring Boot.MonitoreoApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "bk1",
     "ignore.virus.scanning.warn.message": "true",
@@ -63,6 +76,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -82,8 +98,20 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AlertasApplication" value="STOPPED" />
+              <entry key="MonitoreoApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="JUnit.HistorialControllerTest">
+  <component name="RunManager" selected="Spring Boot.AlertasApplication">
     <configuration name="AlertaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alertas" />
       <extension name="coverage">
@@ -221,6 +249,7 @@
       <workItem from="1775096325279" duration="3638000" />
       <workItem from="1775099999917" duration="1572000" />
       <workItem from="1775162192502" duration="5366000" />
+      <workItem from="1775233760836" duration="3150000" />
     </task>
     <servers />
   </component>
