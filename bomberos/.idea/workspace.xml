@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/monitoreo/src/test/java/com/bomberos/monitoreo/MonitoreoControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +68,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bomberos.reportes" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -77,7 +83,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReporteControllerTest">
+  <component name="RunManager" selected="JUnit.HistorialControllerTest">
     <configuration name="AlertaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alertas" />
       <extension name="coverage">
@@ -88,6 +94,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bomberos.alertas" />
       <option name="MAIN_CLASS_NAME" value="com.bomberos.alertas.AlertaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistorialControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="historial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bomberos.historial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bomberos.historial" />
+      <option name="MAIN_CLASS_NAME" value="com.bomberos.historial.HistorialControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoreoControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monitoreo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bomberos.monitoreo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bomberos.monitoreo" />
+      <option name="MAIN_CLASS_NAME" value="com.bomberos.monitoreo.MonitoreoControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,6 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HistorialControllerTest" />
+        <item itemvalue="JUnit.MonitoreoControllerTest" />
         <item itemvalue="JUnit.ReporteControllerTest" />
         <item itemvalue="JUnit.AlertaControllerTest" />
       </list>
@@ -182,7 +220,7 @@
       <workItem from="1775096123032" duration="191000" />
       <workItem from="1775096325279" duration="3638000" />
       <workItem from="1775099999917" duration="1572000" />
-      <workItem from="1775162192502" duration="4379000" />
+      <workItem from="1775162192502" duration="5366000" />
     </task>
     <servers />
   </component>
