@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alertas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/historial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/historial/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoreo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/monitoreo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reportes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +61,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AlertasApplication.executor": "Run",
     "Spring Boot.MonitoreoApplication.executor": "Run",
+    "Spring Boot.ReportesApplication.executor": "Run",
+    "Spring Boot.UsuariosApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "bk1",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -111,7 +108,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AlertasApplication">
+  <component name="RunManager" selected="Spring Boot.UsuariosApplication">
     <configuration name="AlertaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alertas" />
       <extension name="coverage">
