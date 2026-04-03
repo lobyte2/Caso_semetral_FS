@@ -10,9 +10,9 @@ public class Alerta {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String tipoAlerta; // Ejemplo: "INCENDIO", "ZONA_RIESGO"
+    private String tipoAlerta;
     private String mensaje;
-    private String severidad; // Alta, Media, Baja
+    private String severidad;
     private LocalDateTime fechaCreacion;
 
     public Alerta() {

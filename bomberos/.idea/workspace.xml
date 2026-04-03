@@ -4,31 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3748456e-c4ab-4744-b948-91e3475657a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/historial/src/main/java/com/bomberos/historial/Historial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historial/src/main/java/com/bomberos/historial/HistorialController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historial/src/main/java/com/bomberos/historial/HistorialRepository.java" afterDir="false" />
+    <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alertas/src/test/java/com/bomberos/alertas/AlertaControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/Alerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/Alerta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -36,30 +32,27 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
-  <component name="ProjectId" id="3BTHoQIPEu52GUJBrXiKMhkI0QF" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3BmZHo2yMb4RIX1dqT2CKb0rJ2G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AlertaControllerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.AlertasApplication.executor": "Run",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.HistorialApplication.executor": "Run",
-    "Spring Boot.MonitoreoApplication.executor": "Run",
-    "Spring Boot.ReportesApplication.executor": "Run",
-    "Spring Boot.UsuariosApplication.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "bk1",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -81,33 +74,26 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="AlertasApplication" value="STOPPED" />
-              <entry key="ApiGatewayApplication" value="STOPPED" />
-              <entry key="HistorialApplication" value="STOPPED" />
-              <entry key="MonitoreoApplication" value="STOPPED" />
-              <entry key="ReportesApplication" value="STOPPED" />
-              <entry key="UsuariosApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UsuariosApplication">
-    <configuration name="AlertasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AlertaControllerTest">
+    <configuration name="AlertaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alertas" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.alertas.AlertasApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bomberos.alertas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.bomberos.alertas" />
+      <option name="MAIN_CLASS_NAME" value="com.bomberos.alertas.AlertaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="alertas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.alertas.AlertasApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +101,13 @@
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.api_gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.eurekaserver.EurekaserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,37 +126,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ReportesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="reportes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.reportes.ReportesApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bomberos.reportes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UsuariosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="usuarios" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bomberos.usuarios.UsuariosApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bomberos.usuarios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UsuariosApplication" />
-        <item itemvalue="Spring Boot.ReportesApplication" />
-        <item itemvalue="Spring Boot.AlertasApplication" />
+        <item itemvalue="JUnit.AlertaControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,12 +156,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3748456e-c4ab-4744-b948-91e3475657a1" name="Changes" comment="" />
-      <created>1774506314585</created>
+      <changelist id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="" />
+      <created>1775096121694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1774506314585</updated>
-      <workItem from="1774506316305" duration="2568000" />
+      <updated>1775096121694</updated>
+      <workItem from="1775096123032" duration="191000" />
+      <workItem from="1775096325279" duration="3638000" />
+      <workItem from="1775099999917" duration="1572000" />
+      <workItem from="1775162192502" duration="2327000" />
     </task>
     <servers />
   </component>

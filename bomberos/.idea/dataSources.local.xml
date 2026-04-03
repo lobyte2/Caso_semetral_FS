@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-253.31033.145">
+    <data-source name="postgres@aws-1-us-east-1.pooler.supabase.com" uuid="410f8be8-60b2-4f9d-a9b5-08b58c4c4966">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres.geijpkyhyeguxhsoynvv</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@aws-1-us-east-1.pooler.supabase.com" uuid="4dc6a5f5-c637-4305-a6ea-0dbfb9f4ff0f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres.geijpkyhyeguxhsoynvv</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@aws-1-us-east-1.pooler.supabase.com" uuid="d758c16b-327f-45d7-ac15-c0339320ad0d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres.geijpkyhyeguxhsoynvv</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@aws-1-us-east-1.pooler.supabase.com" uuid="4d5486f7-b918-436d-83e7-eceeeccfbd1c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres.geijpkyhyeguxhsoynvv</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@aws-1-us-east-1.pooler.supabase.com" uuid="384a663f-c467-4644-9cfd-7e6b8edd6e4a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres.geijpkyhyeguxhsoynvv</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
