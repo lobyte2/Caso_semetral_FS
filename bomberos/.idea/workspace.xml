@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alertas/src/test/java/com/bomberos/alertas/AlertaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportes/src/test/java/com/bomberos/reportes/usuarios/ReporteControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/Alerta.java" beforeDir="false" afterPath="$PROJECT_DIR$/alertas/src/main/java/com/bomberos/alertas/Alerta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,7 +53,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "bk1",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -75,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlertaControllerTest">
+  <component name="RunManager" selected="JUnit.ReporteControllerTest">
     <configuration name="AlertaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alertas" />
       <extension name="coverage">
@@ -86,6 +88,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bomberos.alertas" />
       <option name="MAIN_CLASS_NAME" value="com.bomberos.alertas.AlertaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReporteControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reportes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bomberos.reportes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bomberos.reportes" />
+      <option name="MAIN_CLASS_NAME" value="com.bomberos.reportes.ReporteControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReporteControllerTest" />
         <item itemvalue="JUnit.AlertaControllerTest" />
       </list>
     </recent_temporary>
@@ -164,7 +182,7 @@
       <workItem from="1775096123032" duration="191000" />
       <workItem from="1775096325279" duration="3638000" />
       <workItem from="1775099999917" duration="1572000" />
-      <workItem from="1775162192502" duration="2327000" />
+      <workItem from="1775162192502" duration="3333000" />
     </task>
     <servers />
   </component>
