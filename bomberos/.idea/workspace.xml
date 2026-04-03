@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c107d25a-5a9a-4b67-8e0d-eb978f778574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reportes/src/test/java/com/bomberos/reportes/usuarios/ReporteControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.AlertaControllerTest.executor": "Run",
+    "JUnit.ReporteControllerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -182,7 +182,7 @@
       <workItem from="1775096123032" duration="191000" />
       <workItem from="1775096325279" duration="3638000" />
       <workItem from="1775099999917" duration="1572000" />
-      <workItem from="1775162192502" duration="3333000" />
+      <workItem from="1775162192502" duration="4379000" />
     </task>
     <servers />
   </component>
