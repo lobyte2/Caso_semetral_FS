@@ -1,6 +1,8 @@
-package com.bomberos.monitoreo;
+package com.bomberos.monitoreo.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "zonas_monitoreo")
@@ -9,15 +11,24 @@ public class ZonaMonitoreo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "El nombre de la zona es obligatorio")
     private String nombreZona;
+
+    @NotNull(message = "La latitud es obligatoria")
     private Double latitud;
+
+    @NotNull(message = "La longitud es obligatoria")
     private Double longitud;
+
+    @NotBlank(message = "El nivel de riesgo es obligatorio (ej. ALTO, MEDIO, BAJO)")
     private String nivelRiesgo;
+
+    @NotNull(message = "Debe indicar si la brigada está activa (true/false)")
     private Boolean brigadaActiva;
 
-    // Constructores, Getters y Setters manuales (Generarlos con Alt+Insert en IntelliJ)
     public ZonaMonitoreo() {}
 
+    // Getters y Setters exactos a los tuyos
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getNombreZona() { return nombreZona; }

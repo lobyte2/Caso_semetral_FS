@@ -3,6 +3,9 @@ package com.bomberos.monitoreo;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.bomberos.monitoreo.controller.MonitoreoController;
+import com.bomberos.monitoreo.model.ZonaMonitoreo;
+import com.bomberos.monitoreo.repository.MonitoreoRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

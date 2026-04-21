@@ -1,6 +1,7 @@
-package com.bomberos.reportes;
+package com.bomberos.reportes.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -12,7 +13,9 @@ public class Reporte {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
+    @NotBlank(message = "La descripción no puede estar vacía")
     private String descripcion;
+
     private double latitud;
     private double longitud;
     private String urlImagen;
@@ -21,7 +24,6 @@ public class Reporte {
     private String estado;
     private LocalDateTime fechaReporte;
 
-    // Constructor vacío obligatorio para JPA
     public Reporte() {
         this.estado = "NUEVO";
         this.fechaReporte = LocalDateTime.now();

@@ -1,23 +1,23 @@
-package com.bomberos.alertas;
+package com.bomberos.alertas.service;
 
+import com.bomberos.alertas.model.Alerta;
+import com.bomberos.alertas.repository.AlertaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
-@RestController
-@RequestMapping("/alertas")
-public class AlertaController {
+@Service
+public class AlertasService {
 
     @Autowired
     private AlertaRepository alertaRepository;
 
-    @GetMapping
     public List<Alerta> obtenerAlertas() {
         return alertaRepository.findAll();
     }
 
-    @PostMapping
-    public Alerta crearAlerta(@RequestBody Alerta alerta) {
+    public Alerta crearAlerta(Alerta alerta) {
         return alertaRepository.save(alerta);
     }
 }

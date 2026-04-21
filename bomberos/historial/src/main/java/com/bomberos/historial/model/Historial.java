@@ -1,6 +1,8 @@
-package com.bomberos.historial;
+package com.bomberos.historial.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 @Entity
@@ -10,10 +12,16 @@ public class Historial {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank(message = "La ubicación es obligatoria")
     private String ubicación;
+
+    @NotBlank(message = "La causa probable no puede estar vacía")
     private String causaProbable;
+
     private LocalDateTime fechaInicio;
     private LocalDateTime fechaFin;
+
+    @NotNull(message = "Debe registrar las hectáreas afectadas")
     private Double hectareasAfectadas;
 
     public Historial() {}

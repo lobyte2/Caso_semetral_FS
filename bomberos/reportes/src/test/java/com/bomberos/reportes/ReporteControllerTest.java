@@ -3,6 +3,9 @@ package com.bomberos.reportes;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.bomberos.reportes.controller.ReporteController;
+import com.bomberos.reportes.model.Reporte;
+import com.bomberos.reportes.repository.ReporteRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -27,7 +30,7 @@ class ReporteControllerTest {
 
         when(reporteRepository.findAll()).thenReturn(Arrays.asList(reporte1, reporte2));
 
-        List<Reporte> resultado = reporteController.obtenerTodosLosReportes();
+        List<Reporte> resultado = reporteController.listarReportes();
 
         assertNotNull(resultado);
         assertEquals(2, resultado.size());

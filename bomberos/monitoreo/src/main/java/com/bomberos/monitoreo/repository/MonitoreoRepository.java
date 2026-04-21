@@ -1,5 +1,6 @@
-package com.bomberos.monitoreo;
+package com.bomberos.monitoreo.repository;
 
+import com.bomberos.monitoreo.model.ZonaMonitoreo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

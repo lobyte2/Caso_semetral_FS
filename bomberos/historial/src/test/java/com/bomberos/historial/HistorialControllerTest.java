@@ -3,6 +3,9 @@ package com.bomberos.historial;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.bomberos.historial.controller.HistorialController;
+import com.bomberos.historial.model.Historial;
+import com.bomberos.historial.repository.HistorialRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

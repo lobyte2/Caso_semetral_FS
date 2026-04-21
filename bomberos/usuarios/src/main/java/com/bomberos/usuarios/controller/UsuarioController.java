@@ -1,6 +1,7 @@
-package com.bomberos.usuarios;
+package com.bomberos.usuarios.controller;
 
-import com.bomberos.usuarios.UsuarioRepository;
+import com.bomberos.usuarios.model.Usuario;
+import com.bomberos.usuarios.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

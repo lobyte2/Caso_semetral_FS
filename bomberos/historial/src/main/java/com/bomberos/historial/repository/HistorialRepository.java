@@ -1,8 +1,8 @@
-package com.bomberos.historial;
+package com.bomberos.historial.repository;
 
+import com.bomberos.historial.model.Historial;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import java.util.List;
 
 @Repository
 public interface HistorialRepository extends JpaRepository<Historial, Long> {

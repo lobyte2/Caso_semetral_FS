@@ -3,6 +3,9 @@ package com.bomberos.alertas;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.bomberos.alertas.controller.AlertaController;
+import com.bomberos.alertas.model.Alerta;
+import com.bomberos.alertas.repository.AlertaRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

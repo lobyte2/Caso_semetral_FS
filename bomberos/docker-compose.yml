@@ -9,9 +9,9 @@ services:
       SERVER_PORT: 8761
     healthcheck:
       test: [ "CMD-SHELL", "curl -f http://localhost:8761/ || exit 1" ]
-      interval: 30s      # Aumenta de 10s a 20s
-      timeout: 10s       # Aumenta de 5s a 10s
-      retries: 10        # Aumenta de 10 a 15
+      interval: 30s
+      timeout: 10s
+      retries: 10
       start_period: 60s
     restart: unless-stopped
     networks:

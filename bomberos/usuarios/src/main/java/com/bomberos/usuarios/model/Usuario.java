@@ -1,4 +1,4 @@
-package com.bomberos.usuarios;
+package com.bomberos.usuarios.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

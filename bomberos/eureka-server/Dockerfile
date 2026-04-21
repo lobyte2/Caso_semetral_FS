@@ -1,11 +1,11 @@
 
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:17-jdk-alpine
 
 # Carpeta de trabajo dentro del contenedor
 WORKDIR /app
 
 # Instalamos curl
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache curl
 
 # jar
 COPY target/*.jar app.jar
