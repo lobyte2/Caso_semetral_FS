@@ -15,9 +15,8 @@ public class Usuario {
     private String nombre;
     private String email;
     private String telefono;
-
-    // Roles esperados: "CIUDADANO", "FUNCIONARIO", "BRIGADISTA"
     private String rol;
+    private String password;
 
     private LocalDateTime fechaRegistro;
 
@@ -44,4 +43,7 @@ public class Usuario {
 
     public LocalDateTime getFechaRegistro() { return fechaRegistro; }
     public void setFechaRegistro(LocalDateTime fechaRegistro) { this.fechaRegistro = fechaRegistro; }
+
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
 }
