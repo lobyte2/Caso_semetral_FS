@@ -25,4 +25,16 @@ public class ReporteService {
     public void eliminarReporte(UUID id) {
         reporteRepository.deleteById(id);
     }
+
+    public Reporte actualizarReporte(String id, Reporte reporteActualizado) {
+        Reporte reporteExistente = reporteRepository.findById(UUID.fromString(id))
+                .orElseThrow(() -> new RuntimeException("Reporte no encontrado con ID: " + id));
+
+        reporteExistente.setDescripcion(reporteActualizado.getDescripcion());
+        reporteExistente.setLatitud(reporteActualizado.getLatitud());
+        reporteExistente.setLongitud(reporteActualizado.getLongitud());
+        reporteExistente.setEstado(reporteActualizado.getEstado());
+
+        return reporteRepository.save(reporteExistente);
+    }
 }

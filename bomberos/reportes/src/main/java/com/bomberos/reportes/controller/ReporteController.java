@@ -4,6 +4,7 @@ import com.bomberos.reportes.model.Reporte;
 import com.bomberos.reportes.service.ReporteService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,5 +30,12 @@ public class ReporteController {
     @DeleteMapping("/{id}")
     public void eliminarReporte(@PathVariable UUID id) {
         reporteService.eliminarReporte(id);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Reporte> actualizarReporte(@PathVariable String id, @RequestBody Reporte reporteActualizado) {
+        // Aquí llamas a tu servicio para guardar los cambios en la base de datos
+        Reporte actualizado = reporteService.actualizarReporte(id, reporteActualizado);
+        return ResponseEntity.ok(actualizado);
     }
 }
