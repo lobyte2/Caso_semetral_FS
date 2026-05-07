@@ -1,5 +1,7 @@
 package com.bomberos.reportes.controller;
 
+import com.bomberos.reportes.dto.ReporteRequestDTO;
+import com.bomberos.reportes.dto.ReporteResponseDTO;
 import com.bomberos.reportes.model.Reporte;
 import com.bomberos.reportes.service.ReporteService;
 import jakarta.validation.Valid;
@@ -18,24 +20,24 @@ public class ReporteController {
     private ReporteService reporteService;
 
     @GetMapping
-    public List<Reporte> listarReportes() {
-        return reporteService.obtenerReportes();
+    public ResponseEntity<List<ReporteResponseDTO>> listarReportes() {
+        return ResponseEntity.ok(reporteService.obtenerTodos());
     }
 
     @PostMapping
-    public Reporte crearReporte(@Valid @RequestBody Reporte reporte) {
-        return reporteService.crearReporte(reporte);
+    public ResponseEntity<ReporteResponseDTO> crearReporte(@RequestBody ReporteRequestDTO request) {
+        return ResponseEntity.ok(reporteService.crearReporte(request));
     }
 
     @DeleteMapping("/{id}")
-    public void eliminarReporte(@PathVariable UUID id) {
+    public ResponseEntity<Void> eliminarReporte(@PathVariable String id) {
         reporteService.eliminarReporte(id);
+        return ResponseEntity.noContent().build();
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Reporte> actualizarReporte(@PathVariable String id, @RequestBody Reporte reporteActualizado) {
-        // Aquí llamas a tu servicio para guardar los cambios en la base de datos
-        Reporte actualizado = reporteService.actualizarReporte(id, reporteActualizado);
+    public ResponseEntity<ReporteResponseDTO> actualizarReporte(@PathVariable String id, @RequestBody ReporteRequestDTO requestDTO) {
+        ReporteResponseDTO actualizado = reporteService.actualizarReporte(id, requestDTO);
         return ResponseEntity.ok(actualizado);
     }
 }
