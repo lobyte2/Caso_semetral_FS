@@ -20,4 +20,6 @@ public class AlertasService {
     public Alerta crearAlerta(Alerta alerta) {
         return alertaRepository.save(alerta);
     }
+
+    public void eliminarAlerta(Long id) { alertaRepository.deleteById(id); }
 }
