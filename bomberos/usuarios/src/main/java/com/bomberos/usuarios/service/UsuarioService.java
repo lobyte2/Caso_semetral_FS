@@ -8,6 +8,8 @@ import com.bomberos.usuarios.model.Usuario;
 import com.bomberos.usuarios.repository.UsuarioRepository;
 import com.bomberos.usuarios.security.JwtUtil; // <-- Agregado para usar el generador de Token
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -35,6 +37,7 @@ public class UsuarioService {
         return dto;
     }
 
+    @Cacheable(value = "usuarios")
     public List<UsuarioResponseDTO> obtenerUsuarios() {
         return usuarioRepository.findAll()
                 .stream()
@@ -42,6 +45,7 @@ public class UsuarioService {
                 .collect(Collectors.toList());
     }
 
+    @CacheEvict(value = "usuarios", allEntries = true)
     public UsuarioResponseDTO crearUsuario(UsuarioRequestDTO request) {
         Usuario usuario = new Usuario();
         usuario.setNombre(request.getNombre());
@@ -56,6 +60,7 @@ public class UsuarioService {
         return mapToDTO(guardado);
     }
 
+    @CacheEvict(value = "usuarios", allEntries = true)
     public void eliminarUsuario(String id) {
         usuarioRepository.deleteById(UUID.fromString(id));
     }

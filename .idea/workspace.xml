@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736d2750-17bc-4bca-89a5-50cdba288114" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
@@ -21,6 +22,15 @@
       <change beforePath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/UsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/UsuariosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/dto/UsuarioResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/dto/UsuarioResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/src/main/java/com/bomberos/usuarios/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/src/main/resources/application.yml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +265,15 @@
       <workItem from="1777420530451" duration="93000" />
       <workItem from="1778644720426" duration="573000" />
       <workItem from="1779223335729" duration="3791000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1779806016822" duration="427000" />
+      <workItem from="1779808349578" duration="2763000" />
+      <workItem from="1779897346955" duration="3730000" />
+      <workItem from="1780410940610" duration="4799000" />
+      <workItem from="1781015056636" duration="2452000" />
+      <workItem from="1781017665420" duration="3013000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

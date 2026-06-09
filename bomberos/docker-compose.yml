@@ -50,6 +50,8 @@ services:
     depends_on:
       eureka-server:
         condition: service_healthy
+      redis:
+        condition: service_started
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8081/actuator/health || exit 1"]
       interval: 10s
@@ -139,6 +141,16 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
+    restart: unless-stopped
+    networks:
+      - bomberos-net
+
+  # 8. Redis Caché
+  redis:
+    image: redis:7-alpine
+    container_name: redis-cache
+    ports:
+      - "6379:6379"
     restart: unless-stopped
     networks:
       - bomberos-net
