@@ -1,4 +1,4 @@
-﻿package com.bomberos.reportes.exception;
+package com.bomberos.reportes.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-﻿package com.bomberos.reportes.exception;
+package com.bomberos.reportes.exception;
 
 import java.time.LocalDateTime;
 

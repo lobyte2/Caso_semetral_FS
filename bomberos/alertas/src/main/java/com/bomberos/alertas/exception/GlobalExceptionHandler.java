@@ -1,4 +1,4 @@
-﻿package com.bomberos.alertas.exception;
+package com.bomberos.alertas.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;

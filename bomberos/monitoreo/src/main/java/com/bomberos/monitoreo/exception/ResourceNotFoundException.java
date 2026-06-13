@@ -1,4 +1,4 @@
-﻿package com.bomberos.monitoreo.exception;
+package com.bomberos.monitoreo.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
