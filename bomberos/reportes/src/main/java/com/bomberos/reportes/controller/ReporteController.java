@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * Controlador REST que expone los endpoints para la gestión de reportes de incidentes.
+ * Permite a la plataforma centralizar las alertas y denuncias ciudadanas sobre focos de incendios.
+ */
 @RestController
 @RequestMapping("/reportes")
 public class ReporteController {
@@ -19,11 +23,23 @@ public class ReporteController {
     @Autowired
     private ReporteService reporteService;
 
+    /**
+     * Obtiene el listado histórico y actual de todos los reportes de incidentes registrados.
+     *
+     * @return Una lista de objetos ReporteResponseDTO con la información detallada de los reportes.
+     */
     @GetMapping
     public ResponseEntity<List<ReporteResponseDTO>> listarReportes() {
         return ResponseEntity.ok(reporteService.obtenerTodos());
     }
 
+    /**
+     * Registra un nuevo reporte de incendio o emergencia en el sistema.
+     * Mapea los datos del formulario ciudadano ingresados desde el Frontend.
+     *
+     * @param *requestDTO Objeto DTO que contiene los datos de entrada del reporte (ubicación, tipo, descripción).
+     * @return Objeto ReporteResponseDTO con los datos del reporte guardado y su ID generado.
+     */
     @PostMapping
     public ResponseEntity<ReporteResponseDTO> crearReporte(@RequestBody ReporteRequestDTO request) {
         return ResponseEntity.ok(reporteService.crearReporte(request));
