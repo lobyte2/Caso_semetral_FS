@@ -12,12 +12,17 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
+import com.bomberos.reportes.messaging.ReporteProducer;
+
 @RestController
 @RequestMapping("/reportes")
 public class ReporteController {
 
     @Autowired
     private ReporteService reporteService;
+
+    @Autowired
+    private ReporteProducer reporteProducer;
 
     @GetMapping
     public ResponseEntity<List<ReporteResponseDTO>> listarReportes() {
@@ -26,7 +31,9 @@ public class ReporteController {
 
     @PostMapping
     public ResponseEntity<ReporteResponseDTO> crearReporte(@RequestBody ReporteRequestDTO request) {
-        return ResponseEntity.ok(reporteService.crearReporte(request));
+        ReporteResponseDTO response = reporteService.crearReporte(request);
+        reporteProducer.enviarReporteCreado("Se ha creado un nuevo reporte: " + response.toString());
+        return ResponseEntity.ok(response);
     }
 
     @DeleteMapping("/{id}")
