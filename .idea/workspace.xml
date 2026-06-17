@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736d2750-17bc-4bca-89a5-50cdba288114" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/bomberos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/reportes/src/test/java/com/bomberos/reportes/ReporteServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/usuarios/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bomberos/reportes/src/main/java/com/bomberos/reportes/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bomberos/reportes/src/main/java/com/bomberos/reportes/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bomberos/reportes/src/main/java/com/bomberos/reportes/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberos/reportes/src/main/java/com/bomberos/reportes/service/ReporteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bomberos/reportes/src/main/java/com/bomberos/reportes/service/ReporteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +60,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Feature/exceptions",
+    "last_opened_file_path": "C:/Users/benja/OneDrive/Desktop/backend con los cambios de roro/Caso_semetral_FS/bomberos/reportes/src/main/java/com/bomberos/reportes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +74,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\benja\OneDrive\Desktop\backend con los cambios de roro\Caso_semetral_FS\bomberos\reportes\src\main\java\com\bomberos\reportes" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
