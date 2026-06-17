@@ -12,6 +12,7 @@ import com.bomberos.usuarios.repository.UsuarioRepository;
 
 import com.bomberos.usuarios.service.UsuarioService;
 import com.bomberos.usuarios.security.JwtUtil;
+import com.bomberos.usuarios.exception.ResourceNotFoundException;
 
 import org.junit.jupiter.api.Test;
 
@@ -134,6 +135,8 @@ public class UsuarioServiceTest {
 
         UUID id = UUID.randomUUID();
 
+        when(usuarioRepository.existsById(id)).thenReturn(true);
+
 
 
         usuarioService.eliminarUsuario(String.valueOf(id));
@@ -194,5 +197,30 @@ public class UsuarioServiceTest {
 
         assertNotNull(resultado);
         verify(usuarioRepository).save(any(Usuario.class));
+    }
+
+    @Test
+    void eliminarUsuario_LanzaExcepcionCuandoNoExiste() {
+        UUID id = UUID.randomUUID();
+        when(usuarioRepository.existsById(id)).thenReturn(false);
+
+        assertThrows(ResourceNotFoundException.class, () -> {
+            usuarioService.eliminarUsuario(String.valueOf(id));
+        });
+
+        verify(usuarioRepository, never()).deleteById(any(UUID.class));
+    }
+
+    @Test
+    void login_UsuarioNoEncontrado_RetornaNull() {
+        com.bomberos.usuarios.dto.LoginRequestDTO creds = new com.bomberos.usuarios.dto.LoginRequestDTO();
+        creds.setEmail("inexistente@mail.com");
+        creds.setPassword("1234");
+        
+        when(usuarioRepository.findByEmail("inexistente@mail.com")).thenReturn(java.util.Optional.empty());
+        
+        var resultado = usuarioService.login(creds);
+        
+        assertNull(resultado);
     }
 }

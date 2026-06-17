@@ -115,6 +115,7 @@ public class AlertasServiceTest {
     @Test
     void eliminarAlerta_DeberiaLlamarAlRepositorio() {
         Long id = 1L;
+        when(alertaRepository.existsById(id)).thenReturn(true);
         doNothing().when(alertaRepository).deleteById(id);
 
         alertasService.eliminarAlerta(id);
@@ -122,4 +123,15 @@ public class AlertasServiceTest {
         verify(alertaRepository, times(1)).deleteById(id);
     }
 
+    @Test
+    void eliminarAlerta_LanzaExcepcionCuandoNoExiste() {
+        Long id = 1L;
+        when(alertaRepository.existsById(id)).thenReturn(false);
+
+        assertThrows(com.bomberos.alertas.exception.ResourceNotFoundException.class, () -> {
+            alertasService.eliminarAlerta(id);
+        });
+
+        verify(alertaRepository, never()).deleteById(any(Long.class));
+    }
 }
